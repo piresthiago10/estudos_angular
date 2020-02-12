@@ -6,7 +6,11 @@ export interface User {
         street?: string,
         city?: string,
         state?: string
-    }
+    },
+    // image?: string,
+    isActive?: boolean,
+    // balance?: number,
+    registered?: any
 }
 
 // o ? deixa o parametro opcional
